@@ -1,0 +1,55 @@
+.logo img:hover {
+    animation-name: shake;
+    animation-duration: 1s;
+}
+/*Animação do Controle*/
+@keyframes shake {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+        transition: 800ms;
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-90deg);
+        transition: 500ms;
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+
+}
+
+#menu ul li:hover{
+    color: red;
+}
+
+#button button:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.img__redes:hover{
+    transform: scale(1.5);
+    transition: 800ms;
+}
+
+.slide1:hover{
+    transform: scale(1.2);
+    transition: 800ms;
+}
+
+.slide2:hover{
+    transform: scale(1.2);
+    transition: 800ms;
+}
+
+.product__img:hover{
+    transform: scale(1.2);
+    transition: 800ms;
+}
